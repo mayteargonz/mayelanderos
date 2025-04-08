@@ -43,7 +43,7 @@
   color: #8f569c;
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .header__intro-welcome {
     max-width: 768px;
     display: grid;

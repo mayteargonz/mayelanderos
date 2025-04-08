@@ -62,9 +62,12 @@
   color: #efedf2;
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .noticias {
+    padding: 0;
+  }
   .noticias__title {
-    font-size: 72px;
+    font-size: 52px;
   }
 
   .noticias__info {
@@ -76,7 +79,7 @@
   }
 
   .noticias__image {
-    max-width: 320px;
+    max-width: 280px;
     max-height: 240px;
   }
 
