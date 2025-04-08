@@ -1,0 +1,59 @@
+.anecdotas {
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: center;
+}
+
+.anecdotas__title {
+  color: #8f569c;
+  font-size: 52px;
+  margin-bottom: 3%;
+}
+
+.anecdota {
+  max-width: 1130px;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: #968aa4;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.anecdotas__text1 {
+  margin-top: 0px;
+}
+
+.anecdotas__image {
+  max-width: 380px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .anecdotas {
+    max-width: 768px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .anecdotas__title {
+    font-size: 32px;
+  }
+
+  .anecdota {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .anecdotas {
+    max-width: 1024px;
+  }
+
+  .anecdotas__title {
+    font-size: 32px;
+  }
+  .anecdota {
+    font-size: 22px;
+  }
+}
