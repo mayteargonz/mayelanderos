@@ -78,17 +78,23 @@
     max-width: 80%;
   }
 
+  .valores__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
   .valores__title {
-    font-size: 52px;
+    font-size: 32px;
   }
 
   .valores__text {
-    font-size: 22px;
+    font-size: 20px;
     text-align: left;
   }
 
   .valores__text2 {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 

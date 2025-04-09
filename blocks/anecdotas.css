@@ -38,14 +38,19 @@
 
   .anecdotas__title {
     font-size: 32px;
+    text-align: center;
   }
 
   .anecdota {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .anecdotas__image {
     max-width: 280px;
+  }
+
+  .anecdotas__text1 {
+    font-size: 20px;
   }
 }
 
@@ -58,6 +63,6 @@
     font-size: 32px;
   }
   .anecdota {
-    font-size: 22px;
+    font-size: 20px;
   }
 }

@@ -75,6 +75,14 @@
     font-size: 22px;
     max-width: 768px;
   }
+
+  .header__paragraph-title {
+    text-align: center;
+  }
+
+  .header__paragraph-text {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {

@@ -3,7 +3,6 @@
   background-size: cover;
   width: 100%;
   color: #efedf2;
-  padding: 30px 20px;
 }
 
 .noticias__title {
@@ -39,9 +38,9 @@
 
 .noticia {
   display: flex;
-  flex-direction: column; /* Acomoda la imagen y el texto en columna */
+  flex-direction: column;
   flex-wrap: wrap;
-  align-items: center; /* Centra los elementos dentro */
+  align-items: center;
   text-align: center;
 }
 
@@ -50,8 +49,8 @@
 }
 
 .noticias__link {
-  margin-top: 10px; /* Agrega espacio entre la imagen y el texto */
-  font-size: 16px;
+  margin-top: 10px;
+  font-size: 22px;
   font-weight: bold;
   color: #fff;
   text-decoration: none;
@@ -64,7 +63,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .noticias {
-    padding: 0;
+    padding-top: 10px;
   }
   .noticias__title {
     font-size: 52px;
