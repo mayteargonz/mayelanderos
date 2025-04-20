@@ -94,9 +94,11 @@
 
   .valores__text {
     text-align: left;
+    font-size: 16px;
   }
 
   .valores__text2 {
+    font-size: 16px;
   }
 }
 
