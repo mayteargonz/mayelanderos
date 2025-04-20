@@ -5,7 +5,7 @@
 }
 
 .anecdotas__title {
-  color: #8f569c;
+  color: #883b89;
   font-size: 52px;
   margin-bottom: 3%;
 }
@@ -20,6 +20,9 @@
   flex-wrap: wrap;
 }
 
+.anecdotas__text {
+}
+
 .anecdotas__text1 {
   margin-top: 0px;
 }
@@ -29,24 +32,23 @@
 }
 
 .anecdotas__image {
-  max-width: 380px;
+  max-width: 800px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .anecdotas {
     max-width: 768px;
-    font-size: 20px;
     justify-content: center;
     align-items: center;
   }
 
   .anecdotas__title {
-    font-size: 32px;
+    font-size: 25px;
     text-align: center;
   }
 
   .anecdota {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .anecdotas__image {
@@ -54,7 +56,7 @@
   }
 
   .anecdotas__text1 {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 

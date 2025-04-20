@@ -41,7 +41,7 @@
 
 .valores__title-quote {
   grid-area: text2;
-  background-color: #beaf73;
+  background-color: #90994c;
   text-align: center;
   color: #fff;
   font-size: 32px;
@@ -51,7 +51,7 @@
 .valores__quote {
   grid-area: text3;
   max-width: 611px;
-  font-size: 32px;
+  font-size: 25px;
   text-align: center;
 }
 
@@ -62,7 +62,6 @@
 
 .valores__text {
   grid-area: text5;
-  font-size: 25px;
   text-align: center;
 }
 
@@ -90,16 +89,14 @@
   }
 
   .valores__title {
-    font-size: 32px;
+    font-size: 25px;
   }
 
   .valores__text {
-    font-size: 20px;
     text-align: left;
   }
 
   .valores__text2 {
-    font-size: 20px;
   }
 }
 

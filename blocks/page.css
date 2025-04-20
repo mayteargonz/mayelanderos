@@ -14,5 +14,6 @@
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .page {
     max-width: 768px;
+    font-size: 18px;
   }
 }
